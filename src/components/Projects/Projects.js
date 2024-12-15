@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import TierList from "../../Assets/Projects/TierList.png";
+import IMS from "../../Assets/Projects/TestIMS.png";
 
 function Projects() {
   return (
@@ -19,7 +19,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={TierList}
               isBlog={false}
               title="FPL Tier List"
               description="A Fantasy Premier League tool built with Blazor and Azure, featuring a dynamic tier list system for ranking players. Uses real-time data from the FPL API to calculate player ratings and tiers (S+ to F) based on performance metrics for upcoming gameweeks. Includes position-based rankings and a clean, responsive UI."
@@ -30,7 +30,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={IMS}
               isBlog={false}
               title="Inventory Management System (IMS)"
               description="C#/.NET inventory management system showcasing a use-case driven architecture for maintainability and scalability.  Improved efficiency through real-time inventory tracking and automated transactions. View the code and documentation on GitHub."

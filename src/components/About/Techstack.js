@@ -1,62 +1,49 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiPython,
-  DiGit,
-  DiMsqlServer,
+    DiReact,
+    DiNodejs,
+    DiPython,
+    DiGit,
+    DiMsqlServer,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-  SiDotnet,
-  SiBlazor,
-  SiGithub
+    SiDotnet,
+    SiBlazor,
+    SiGithub
 } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 import { VscAzure } from "react-icons/vsc";
 
+const techStackData = [
+    { icon: <TbBrandCSharp />, name: "C#" },
+    { icon: <SiDotnet />, name: ".NET" },
+    { icon: <VscAzure />, name: "Azure" },
+    { icon: <SiBlazor />, name: "Blazor" },
+    { icon: <DiMsqlServer />, name: "SQL Server" },
+    { icon: <DiGit />, name: "Git" },
+    { icon: <SiGithub />, name: "GitHub" },
+    { icon: <DiNodejs />, name: "Node.js" },
+    { icon: <DiReact />, name: "React" },
+    { icon: <DiPython />, name: "Python" },
+];
+
 function Techstack() {
-  return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandCSharp />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDotnet />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <VscAzure />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiBlazor />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMsqlServer />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-       <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-    </Row>
-  );
+    return (
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+            {techStackData.map((tech, index) => (
+                <Col xs={4} md={2} className="tech-icons" key={index}>
+                    <OverlayTrigger
+                        placement="top"
+                        overlay={<Tooltip id={`tooltip-${index}`}>{tech.name}</Tooltip>}
+                    >
+                        <div>{tech.icon}</div>
+                    </OverlayTrigger>
+                </Col>
+            ))}
+        </Row>
+    );
 }
 
 export default Techstack;
+
