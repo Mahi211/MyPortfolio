@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGithub
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -14,7 +12,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3></h3> {/*add information here if needed*/}
+          {/*add information here if needed*/}
         </Col>
         <Col md="4" className="footer-copywright">
           {/*<h3> add copy if needed </h3>*/}
