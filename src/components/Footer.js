@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Mohamud Nur and Soumyajit Behera</h3>
+          <h3></h3> {/*add information here if needed*/}
         </Col>
         <Col md="4" className="footer-copywright">
           {/*<h3> add copy if needed </h3>*/}
@@ -33,16 +33,6 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
                 href="https://www.linkedin.com/in/mohamud-nur-2243481ba/"
                 style={{ color: "white" }}
                 target="_blank" 
@@ -50,17 +40,7 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
+            </li>            
           </ul>
         </Col>
       </Row>

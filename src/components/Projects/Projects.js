@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import TierList from "../../Assets/Projects/TierList.png";
 import IMS from "../../Assets/Projects/TestIMS.png";
+import ChatBot from "../../Assets/Projects/ChatBot.png";  // Adjust the path if necessary
+
 
 function Projects() {
   return (
@@ -36,6 +38,17 @@ function Projects() {
               description="C#/.NET inventory management system showcasing a use-case driven architecture for maintainability and scalability.  Improved efficiency through real-time inventory tracking and automated transactions. View the code and documentation on GitHub."
               ghLink="https://github.com/mahi211/ims"
               demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ChatBot}
+              isBlog={false}
+              title="Crypto Helper"
+              description="In Progess: An AI chatbot that provides real-time cryptocurrency prices, trends, and news. It also helps beginners understand crypto concepts in a simple and easy-to-follow way. Built using .NET, React, and Azure Functions."
+              ghLink=""  
+              demoLink=""  
             />
           </Col>
         </Row>

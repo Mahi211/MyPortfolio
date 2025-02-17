@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import {
     DiReact,
-    DiNodejs,
     DiPython,
     DiGit,
     DiMsqlServer,
@@ -10,7 +9,8 @@ import {
 import {
     SiDotnet,
     SiBlazor,
-    SiGithub
+    SiGithub,
+    SiJupyter
 } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 import { VscAzure } from "react-icons/vsc";
@@ -23,7 +23,7 @@ const techStackData = [
     { icon: <DiMsqlServer />, name: "SQL Server" },
     { icon: <DiGit />, name: "Git" },
     { icon: <SiGithub />, name: "GitHub" },
-    { icon: <DiNodejs />, name: "Node.js" },
+    { icon: <SiJupyter />, name: "Jupyter Notebook" },
     { icon: <DiReact />, name: "React" },
     { icon: <DiPython />, name: "Python" },
 ];
