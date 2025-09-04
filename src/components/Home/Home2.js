@@ -28,16 +28,16 @@ function Home2() {
               <br />
                My areas of interest include building&nbsp;
               <i>
-                <b className="purple">cloud-native applications</b> and
+                <b className="purple">AI cloud-native applications</b> and
                 {" "}
                 <b className="purple">
-                  designing solutions in Azure.
+                  designing solutions with AI-prompting.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Blazor</b> and
+              with <b className="purple">Lovable</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -46,7 +46,7 @@ function Home2() {
               </i>
               &nbsp; and other tools like
               <i>
-                <b className="purple"> React.js and Node.js</b>
+                <b className="purple"> React.js, Typescript and Node.js</b>
               </i>
             </p>
           </Col>

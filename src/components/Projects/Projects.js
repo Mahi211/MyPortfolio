@@ -24,9 +24,9 @@ function Projects() {
               imgPath={TierList}
               isBlog={false}
               title="FPL Tier List"
-              description="A Fantasy Premier League tool built with Blazor and Azure, featuring a dynamic tier list system for ranking players. Uses real-time data from the FPL API to calculate player ratings and tiers (S+ to F) based on performance metrics for upcoming gameweeks. Includes position-based rankings and a clean, responsive UI."
+              description="A Fantasy Premier League tool built with Blazor and Azure, featuring a dynamic AI-powered tier list for ranking players based on upcoming gameweeks. Uses real-time FPL data and position-based rankings. Currently being redesigned with a more intuitive and visually appealing UI using Lovable."
               ghLink="https://github.com/Mahi211/FPLStaticWebApp"
-              demoLink="https://proud-smoke-04f912f03.5.azurestaticapps.net/"
+              demoLink=""
             />
           </Col>
 
@@ -46,7 +46,7 @@ function Projects() {
               imgPath={ChatBot}
               isBlog={false}
               title="Crypto Helper"
-              description="In Progess: An AI chatbot that provides real-time cryptocurrency prices, trends, and news. It also helps beginners understand crypto concepts in a simple and easy-to-follow way. Built using .NET, React, and Azure Functions."
+              description="In Progress: An AI chatbot that provides real-time cryptocurrency prices, trends, and news. It also helps beginners understand crypto concepts in a simple and easy-to-follow way. Built using .NET, React, and Azure Functions."
               ghLink=""  
               demoLink=""  
             />

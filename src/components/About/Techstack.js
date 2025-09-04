@@ -4,28 +4,28 @@ import {
     DiReact,
     DiPython,
     DiGit,
-    DiMsqlServer,
+    DiNodejs
 } from "react-icons/di";
 import {
     SiDotnet,
-    SiBlazor,
     SiGithub,
-    SiJupyter
+    SiOpenai,
+    SiPostgresql
 } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 import { VscAzure } from "react-icons/vsc";
 
 const techStackData = [
+    { icon: <DiNodejs />, name: "Node.js" },
+    { icon: <SiPostgresql />, name: "PostgreSQL" },
+    { icon: <DiReact />, name: "React" },
+    { icon: <DiPython />, name: "Python" },
+    { icon: <SiGithub />, name: "GitHub" },
+    { icon: <SiOpenai />, name: "OpenAi API" },
+    { icon: <DiGit />, name: "Git" },
     { icon: <TbBrandCSharp />, name: "C#" },
     { icon: <SiDotnet />, name: ".NET" },
     { icon: <VscAzure />, name: "Azure" },
-    { icon: <SiBlazor />, name: "Blazor" },
-    { icon: <DiMsqlServer />, name: "SQL Server" },
-    { icon: <DiGit />, name: "Git" },
-    { icon: <SiGithub />, name: "GitHub" },
-    { icon: <SiJupyter />, name: "Jupyter Notebook" },
-    { icon: <DiReact />, name: "React" },
-    { icon: <DiPython />, name: "Python" },
 ];
 
 function Techstack() {

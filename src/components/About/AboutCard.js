@@ -11,9 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Mohamud Nur </span>
             from <span className="purple"> Stockholm, Sweden.</span>
             <br />
-            I am currently studying for the Azure Developer Associate.
+            Recently completed the course <span className="purple"><em>IBM: Building AI Solutions Using Advanced Algorithms and Open Source Frameworks.</em></span>
             <br />
-            I have studied Bsc in Business at Sodertorns
+            I have also studied Bsc in Business at Sodertorns
             University.
             <br />
             <br />

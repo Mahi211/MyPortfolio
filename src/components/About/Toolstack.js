@@ -4,7 +4,7 @@ import {
   SiVisualstudio,
   SiPostman,
   SiGithubactions,
-  SiSwagger,
+  SiSupabase,
   SiDocker,
 } from "react-icons/si";
 
@@ -13,7 +13,7 @@ const toolStackData = [
     { icon: <SiDocker />, name: "Docker" },
     { icon: <SiPostman />, name: "Postman" },
     { icon: <SiGithubactions />, name: "GitHub Actions" },
-    { icon: <SiSwagger />, name: "Swagger" },
+    { icon: <SiSupabase />, name: "Supabase" },
 ];
 
 function Toolstack() {
