@@ -22,7 +22,7 @@ function Home2() {
                I have a strong interest in programming and enjoy exploring the latest technologies. <br /> <br />
                I am skilled in languages like
               <i>
-                <b className="purple"> C#, SQL and Python. </b>
+                <b className="purple"> Javascript and C# </b>
               </i>
               <br />
               <br />
@@ -31,7 +31,7 @@ function Home2() {
                 <b className="purple">AI cloud-native applications</b> and
                 {" "}
                 <b className="purple">
-                  designing solutions with AI-prompting.
+                  designing solutions with code.
                 </b>
               </i>
               <br />

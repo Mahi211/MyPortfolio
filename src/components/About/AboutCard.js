@@ -11,9 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Mohamud Nur </span>
             from <span className="purple"> Stockholm, Sweden.</span>
             <br />
-            Recently completed the course <span className="purple"><em>IBM: Building AI Solutions Using Advanced Algorithms and Open Source Frameworks.</em></span>
+                      Recently completed the course <span className="purple"><em> IBM SkillsBuild Software Engineering for Web Developers Certificate.</em></span>
             <br />
-            I have also studied Bsc in Business at Sodertorns
+            I have also studied some Business at Sodertorns
             University.
             <br />
             <br />
@@ -21,10 +21,10 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Football
+              <ImPointRight /> Swimming
             </li>
             <li className="about-activity">
-              <ImPointRight /> Swimming
+              <ImPointRight /> E-Commerce
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -32,9 +32,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Work towards good to ensure greatness!"{" "}
+            Always learning{" "}
           </p>
-          <footer className="blockquote-footer">Mohamud Nur</footer>
+          <footer className="blockquote-footer"></footer>
         </blockquote>
       </Card.Body>
     </Card>
