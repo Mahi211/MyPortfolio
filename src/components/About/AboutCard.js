@@ -11,13 +11,13 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Mohamud Nur </span>
             from <span className="purple"> Stockholm, Sweden.</span>
             <br />
-                      Recently completed the course <span className="purple"><em> IBM SkillsBuild Software Engineering for Web Developers Certificate.</em></span>
+                      Recently completed the course <span className="purple"><em> IBM SkillsBuild Certificate.</em></span>
             <br />
-            I have also studied some Business at Sodertorns
+            I have also studied some Business Administration (140hp) at Sodertorns
             University.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from learning new technologies, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">

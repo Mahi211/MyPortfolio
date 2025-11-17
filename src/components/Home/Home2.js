@@ -28,7 +28,7 @@ function Home2() {
               <br />
                My areas of interest include building&nbsp;
               <i>
-                <b className="purple">AI cloud-native applications</b> and
+                <b className="purple">AI automated workflows</b> and
                 {" "}
                 <b className="purple">
                   designing solutions with code.
